@@ -1,0 +1,262 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/guyezro/Desktop/FlightController-2/FlightController.Services/FlightController.Services.csproj": {}
+  },
+  "projects": {
+    "/Users/guyezro/Desktop/FlightController-2/FlightController.Common/FlightController.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/guyezro/Desktop/FlightController-2/FlightController.Common/FlightController.Common.csproj",
+        "projectName": "FlightController.Common",
+        "projectPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Common/FlightController.Common.csproj",
+        "packagesPath": "/Users/guyezro/.nuget/packages/",
+        "outputPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/guyezro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200-preview.22628.1/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/guyezro/Desktop/FlightController-2/FlightController.Context/FlightController.Context.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/guyezro/Desktop/FlightController-2/FlightController.Context/FlightController.Context.csproj",
+        "projectName": "FlightController.Context",
+        "projectPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Context/FlightController.Context.csproj",
+        "packagesPath": "/Users/guyezro/.nuget/packages/",
+        "outputPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Context/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/guyezro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/guyezro/Desktop/FlightController-2/FlightController.Common/FlightController.Common.csproj": {
+                "projectPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Common/FlightController.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200-preview.22628.1/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/guyezro/Desktop/FlightController-2/FlightController.Infrastructure.Queue/FlightController.Infrastructure.Queue.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/guyezro/Desktop/FlightController-2/FlightController.Infrastructure.Queue/FlightController.Infrastructure.Queue.csproj",
+        "projectName": "FlightController.Infrastructure.Queue",
+        "projectPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Infrastructure.Queue/FlightController.Infrastructure.Queue.csproj",
+        "packagesPath": "/Users/guyezro/.nuget/packages/",
+        "outputPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Infrastructure.Queue/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/guyezro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/guyezro/Desktop/FlightController-2/FlightController.Common/FlightController.Common.csproj": {
+                "projectPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Common/FlightController.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Azure.Storage.Queues": {
+              "target": "Package",
+              "version": "[12.12.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200-preview.22628.1/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/guyezro/Desktop/FlightController-2/FlightController.Services/FlightController.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/guyezro/Desktop/FlightController-2/FlightController.Services/FlightController.Services.csproj",
+        "projectName": "FlightController.Services",
+        "projectPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Services/FlightController.Services.csproj",
+        "packagesPath": "/Users/guyezro/.nuget/packages/",
+        "outputPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/guyezro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/guyezro/Desktop/FlightController-2/FlightController.Common/FlightController.Common.csproj": {
+                "projectPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Common/FlightController.Common.csproj"
+              },
+              "/Users/guyezro/Desktop/FlightController-2/FlightController.Context/FlightController.Context.csproj": {
+                "projectPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Context/FlightController.Context.csproj"
+              },
+              "/Users/guyezro/Desktop/FlightController-2/FlightController.Infrastructure.Queue/FlightController.Infrastructure.Queue.csproj": {
+                "projectPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Infrastructure.Queue/FlightController.Infrastructure.Queue.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200-preview.22628.1/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

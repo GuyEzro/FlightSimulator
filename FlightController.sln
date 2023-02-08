@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightController.Common", "FlightController.Common\FlightController.Common.csproj", "{EBD5E4A6-6659-4715-BFFF-BBAAE7B983B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightController.Web.API", "FlightController.Web.API\FlightController.Web.API.csproj", "{D8115CE6-D712-4C67-B58D-8560F7010D0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightController.Services", "FlightController.Services\FlightController.Services.csproj", "{2026F3FF-AFFA-49AA-8472-73CBDE6C9F02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightController.Infrastructure.Queue", "FlightController.Infrastructure.Queue\FlightController.Infrastructure.Queue.csproj", "{C720F18E-0812-43E8-9B4E-0DC62D5C7920}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightController.Context", "FlightController.Context\FlightController.Context.csproj", "{A03BD3F6-F81A-4AFE-85B3-B346A62127DD}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "FlightController.Web.Application", "FlightController.Web.Application\FlightController.Web.Application.csproj", "{D4FE591F-F9D9-4E92-AFD9-23363BCBDEDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBD5E4A6-6659-4715-BFFF-BBAAE7B983B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD5E4A6-6659-4715-BFFF-BBAAE7B983B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD5E4A6-6659-4715-BFFF-BBAAE7B983B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD5E4A6-6659-4715-BFFF-BBAAE7B983B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8115CE6-D712-4C67-B58D-8560F7010D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8115CE6-D712-4C67-B58D-8560F7010D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8115CE6-D712-4C67-B58D-8560F7010D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8115CE6-D712-4C67-B58D-8560F7010D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2026F3FF-AFFA-49AA-8472-73CBDE6C9F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2026F3FF-AFFA-49AA-8472-73CBDE6C9F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2026F3FF-AFFA-49AA-8472-73CBDE6C9F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2026F3FF-AFFA-49AA-8472-73CBDE6C9F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C720F18E-0812-43E8-9B4E-0DC62D5C7920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C720F18E-0812-43E8-9B4E-0DC62D5C7920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C720F18E-0812-43E8-9B4E-0DC62D5C7920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C720F18E-0812-43E8-9B4E-0DC62D5C7920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A03BD3F6-F81A-4AFE-85B3-B346A62127DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A03BD3F6-F81A-4AFE-85B3-B346A62127DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A03BD3F6-F81A-4AFE-85B3-B346A62127DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A03BD3F6-F81A-4AFE-85B3-B346A62127DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4FE591F-F9D9-4E92-AFD9-23363BCBDEDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4FE591F-F9D9-4E92-AFD9-23363BCBDEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4FE591F-F9D9-4E92-AFD9-23363BCBDEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4FE591F-F9D9-4E92-AFD9-23363BCBDEDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

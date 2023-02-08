@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "p6cskIxJyYYvsmjoFzcH0y3TlCkt9gbfHjtdskxw1TA=",
+  "Source": "FlightController.Web.API",
+  "BasePath": "_content/FlightController.Web.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,1 +1,74 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+}
+.flight-card{
+  display: flex;
+  gap: 80px;
+  background-color: #3e4243;
+  border: 1px solid black;
+  height: 11vh;
+  color: white;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.flight-card-animate{
+  transform: rotateX(360deg);
+  transition: transform 1s;
+  animation-duration: 3s;
+}
+
+.flight-card-header{
+  display: flex;
+  gap: 90px;
+  background-color: rgb(42, 45, 46);
+  border: 1px solid black;
+  color: white;
+  align-items: center;
+  height: 7vh;
+  justify-content: flex-end;
+}
+.flight-card-header p:first-of-type{
+  margin-left: 130px;
+}
+html,body{
+  height: 100%;
+}
+body{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 20vh 1fr;
+}
+app-root{
+  width: 100%;
+  height: 100%;
+  max-height: 70vw;
+  grid-column: 2;
+  grid-row: 2;
+}
+p{
+  align-self: center;
+}
+svg{
+  min-width: 82px;
+  width: 62px;
+  max-width: 100px;
+  margin-left: 23px;
+}
+html{
+  background-color: #0f0e0e;
+}
+.destination{
+  margin-right: 7px;
+}
+.th-Destination{
+  margin-right: 15px;
+}
+.box-for-content{
+  margin-right: 5px;
+   width: 5vw;
+  align-self: center;
+}
+p.destination{
+  position: absolute;
+  right: 3px;
+}

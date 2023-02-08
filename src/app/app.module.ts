@@ -1,16 +1,21 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
+import FlightRepo from './repo/FlightService';
+import { FlightComponent } from './flight/Flight.component';
+import { SignalR } from './repo/SignalR';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FlightComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [FlightRepo,SignalR],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

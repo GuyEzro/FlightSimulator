@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/guyezro/Desktop/FlightController-2/FlightController.Infrastructure.Queue/FlightController.Infrastructure.Queue.csproj": {}
+    "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Infrastructure.Queue/FlightController.Infrastructure.Queue.csproj": {}
   },
   "projects": {
-    "/Users/guyezro/Desktop/FlightController-2/FlightController.Common/FlightController.Common.csproj": {
+    "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Common/FlightController.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/guyezro/Desktop/FlightController-2/FlightController.Common/FlightController.Common.csproj",
+        "projectUniqueName": "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Common/FlightController.Common.csproj",
         "projectName": "FlightController.Common",
-        "projectPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Common/FlightController.Common.csproj",
+        "projectPath": "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Common/FlightController.Common.csproj",
         "packagesPath": "/Users/guyezro/.nuget/packages/",
-        "outputPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Common/obj/",
+        "outputPath": "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Common/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/guyezro/.nuget/NuGet/NuGet.Config"
@@ -54,18 +54,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200-preview.22628.1/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/guyezro/Desktop/FlightController-2/FlightController.Infrastructure.Queue/FlightController.Infrastructure.Queue.csproj": {
+    "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Infrastructure.Queue/FlightController.Infrastructure.Queue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/guyezro/Desktop/FlightController-2/FlightController.Infrastructure.Queue/FlightController.Infrastructure.Queue.csproj",
+        "projectUniqueName": "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Infrastructure.Queue/FlightController.Infrastructure.Queue.csproj",
         "projectName": "FlightController.Infrastructure.Queue",
-        "projectPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Infrastructure.Queue/FlightController.Infrastructure.Queue.csproj",
+        "projectPath": "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Infrastructure.Queue/FlightController.Infrastructure.Queue.csproj",
         "packagesPath": "/Users/guyezro/.nuget/packages/",
-        "outputPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Infrastructure.Queue/obj/",
+        "outputPath": "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Infrastructure.Queue/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/guyezro/.nuget/NuGet/NuGet.Config"
@@ -81,8 +81,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/guyezro/Desktop/FlightController-2/FlightController.Common/FlightController.Common.csproj": {
-                "projectPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Common/FlightController.Common.csproj"
+              "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Common/FlightController.Common.csproj": {
+                "projectPath": "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Common/FlightController.Common.csproj"
               }
             }
           }
@@ -122,7 +122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200-preview.22628.1/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
         }
       }
     }

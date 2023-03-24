@@ -5114,11 +5114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/guyezro/Desktop/FlightController-2/FlightController.Web.API/FlightController.Web.API.csproj",
+      "projectUniqueName": "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Web.API/FlightController.Web.API.csproj",
       "projectName": "FlightController.Web.API",
-      "projectPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Web.API/FlightController.Web.API.csproj",
+      "projectPath": "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Web.API/FlightController.Web.API.csproj",
       "packagesPath": "/Users/guyezro/.nuget/packages/",
-      "outputPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Web.API/obj/",
+      "outputPath": "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Web.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/guyezro/.nuget/NuGet/NuGet.Config"
@@ -5134,17 +5134,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/guyezro/Desktop/FlightController-2/FlightController.Common/FlightController.Common.csproj": {
-              "projectPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Common/FlightController.Common.csproj"
+            "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Common/FlightController.Common.csproj": {
+              "projectPath": "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Common/FlightController.Common.csproj"
             },
-            "/Users/guyezro/Desktop/FlightController-2/FlightController.Context/FlightController.Context.csproj": {
-              "projectPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Context/FlightController.Context.csproj"
+            "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Context/FlightController.Context.csproj": {
+              "projectPath": "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Context/FlightController.Context.csproj"
             },
-            "/Users/guyezro/Desktop/FlightController-2/FlightController.Infrastructure.Queue/FlightController.Infrastructure.Queue.csproj": {
-              "projectPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Infrastructure.Queue/FlightController.Infrastructure.Queue.csproj"
+            "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Infrastructure.Queue/FlightController.Infrastructure.Queue.csproj": {
+              "projectPath": "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Infrastructure.Queue/FlightController.Infrastructure.Queue.csproj"
             },
-            "/Users/guyezro/Desktop/FlightController-2/FlightController.Services/FlightController.Services.csproj": {
-              "projectPath": "/Users/guyezro/Desktop/FlightController-2/FlightController.Services/FlightController.Services.csproj"
+            "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Services/FlightController.Services.csproj": {
+              "projectPath": "/Users/guyezro/Desktop/sela/Final/FlightController-2/FlightController.Services/FlightController.Services.csproj"
             }
           }
         }
@@ -5215,7 +5215,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200-preview.22628.1/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
       }
     }
   }

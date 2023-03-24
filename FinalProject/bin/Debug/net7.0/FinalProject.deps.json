@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "FinalProject/1.0.0": {
+        "dependencies": {
+          "PlaneConstructor": "1.0.0"
+        },
+        "runtime": {
+          "FinalProject.dll": {}
+        }
+      },
+      "PlaneConstructor/1.0.0": {
+        "runtime": {
+          "PlaneConstructor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FinalProject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PlaneConstructor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

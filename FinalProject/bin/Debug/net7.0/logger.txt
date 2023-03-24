@@ -1,0 +1,10 @@
+filght code: WT1527
+flight id: 933c26dc-5edd-4873-9359-a6668e6c36b2
+flight brand: Airbus
+passenger count: 196
+plane model: Airbus A321
+plane time of departure: 1/16/2023 8:27:03 PM
+leg: 1
+is critical: False
+plane speed: 680
+----------------------------------------
